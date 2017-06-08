@@ -1,0 +1,263 @@
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\ApplicationInsights.config
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\roslyn\csc.exe
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\roslyn\vbc.exe
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\roslyn\VBCSCompiler.exe
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\MVCBlog.dll.config
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\MVCBlog.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\MVCBlog.pdb
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Antlr3.Runtime.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\EntityFramework.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\EntityFramework.SqlServer.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.AI.Web.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.Owin.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\MVCBlog.Data.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Newtonsoft.Json.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Owin.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\System.Web.Helpers.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\System.Web.Mvc.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\System.Web.Optimization.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\System.Web.Providers.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\System.Web.Razor.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\System.Web.WebPages.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\WebGrease.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\MVCBlog.Data.pdb
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\MVCBlog.Data.dll.config
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.AI.Web.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Newtonsoft.Json.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\System.Web.Optimization.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\System.Web.Providers.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\System.Web.Helpers.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\System.Web.Mvc.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\System.Web.Razor.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\System.Web.WebPages.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Antlr3.Runtime.pdb
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\EntityFramework.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\EntityFramework.SqlServer.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.Owin.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\obj\Debug\MVCShop.csprojResolveAssemblyReference.cache
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\obj\Debug\MVCBlog.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\obj\Debug\MVCBlog.pdb
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\ApplicationInsights.config
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\roslyn\csc.exe
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\roslyn\vbc.exe
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\roslyn\VBCSCompiler.exe
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\MVCBlog.dll.config
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\MVCBlog.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\MVCBlog.pdb
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Antlr3.Runtime.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\EntityFramework.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\EntityFramework.SqlServer.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.AI.Web.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.ApplicationInsights.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.Owin.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\MVCBlog.Data.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Newtonsoft.Json.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Owin.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\System.Web.Helpers.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\System.Web.Mvc.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\System.Web.Optimization.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\System.Web.Providers.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\System.Web.Razor.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\System.Web.WebPages.Deployment.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\System.Web.WebPages.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\System.Web.WebPages.Razor.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\WebGrease.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\MVCBlog.Data.pdb
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.AI.Web.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.ApplicationInsights.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Newtonsoft.Json.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\System.Web.Optimization.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\System.Web.Providers.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\System.Web.Helpers.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\System.Web.Mvc.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\System.Web.Razor.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\System.Web.WebPages.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\System.Web.WebPages.Deployment.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\System.Web.WebPages.Razor.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Antlr3.Runtime.pdb
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\EntityFramework.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\EntityFramework.SqlServer.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.Owin.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\obj\Debug\MVCShop.csprojResolveAssemblyReference.cache
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\obj\Debug\MVCBlog.dll
+C:\Users\kalin.petrov\Documents\Visual Studio 2015\Projects\Shop\MVCBlog\obj\Debug\MVCBlog.pdb
+F:\Projects\Shop\MVCBlog\bin\ApplicationInsights.config
+F:\Projects\Shop\MVCBlog\bin\roslyn\csc.exe
+F:\Projects\Shop\MVCBlog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\Projects\Shop\MVCBlog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\Projects\Shop\MVCBlog\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\Projects\Shop\MVCBlog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\Projects\Shop\MVCBlog\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\Projects\Shop\MVCBlog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\Projects\Shop\MVCBlog\bin\roslyn\System.Collections.Immutable.dll
+F:\Projects\Shop\MVCBlog\bin\roslyn\System.Reflection.Metadata.dll
+F:\Projects\Shop\MVCBlog\bin\roslyn\vbc.exe
+F:\Projects\Shop\MVCBlog\bin\roslyn\VBCSCompiler.exe
+F:\Projects\Shop\MVCBlog\bin\roslyn\VBCSCompiler.exe.config
+F:\Projects\Shop\MVCBlog\bin\MVCBlog.dll.config
+F:\Projects\Shop\MVCBlog\bin\MVCBlog.dll
+F:\Projects\Shop\MVCBlog\bin\MVCBlog.pdb
+F:\Projects\Shop\MVCBlog\bin\Antlr3.Runtime.dll
+F:\Projects\Shop\MVCBlog\bin\EntityFramework.dll
+F:\Projects\Shop\MVCBlog\bin\EntityFramework.SqlServer.dll
+F:\Projects\Shop\MVCBlog\bin\Microsoft.AI.Agent.Intercept.dll
+F:\Projects\Shop\MVCBlog\bin\Microsoft.AI.DependencyCollector.dll
+F:\Projects\Shop\MVCBlog\bin\Microsoft.AI.PerfCounterCollector.dll
+F:\Projects\Shop\MVCBlog\bin\Microsoft.AI.ServerTelemetryChannel.dll
+F:\Projects\Shop\MVCBlog\bin\Microsoft.AI.Web.dll
+F:\Projects\Shop\MVCBlog\bin\Microsoft.AI.WindowsServer.dll
+F:\Projects\Shop\MVCBlog\bin\Microsoft.ApplicationInsights.dll
+F:\Projects\Shop\MVCBlog\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Projects\Shop\MVCBlog\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Projects\Shop\MVCBlog\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Projects\Shop\MVCBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\Projects\Shop\MVCBlog\bin\Microsoft.Owin.dll
+F:\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.dll
+F:\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Google.dll
+F:\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Projects\Shop\MVCBlog\bin\Microsoft.Web.Infrastructure.dll
+F:\Projects\Shop\MVCBlog\bin\MVCBlog.Data.dll
+F:\Projects\Shop\MVCBlog\bin\Newtonsoft.Json.dll
+F:\Projects\Shop\MVCBlog\bin\Owin.dll
+F:\Projects\Shop\MVCBlog\bin\System.Web.Helpers.dll
+F:\Projects\Shop\MVCBlog\bin\System.Web.Mvc.dll
+F:\Projects\Shop\MVCBlog\bin\System.Web.Optimization.dll
+F:\Projects\Shop\MVCBlog\bin\System.Web.Providers.dll
+F:\Projects\Shop\MVCBlog\bin\System.Web.Razor.dll
+F:\Projects\Shop\MVCBlog\bin\System.Web.WebPages.Deployment.dll
+F:\Projects\Shop\MVCBlog\bin\System.Web.WebPages.dll
+F:\Projects\Shop\MVCBlog\bin\System.Web.WebPages.Razor.dll
+F:\Projects\Shop\MVCBlog\bin\WebGrease.dll
+F:\Projects\Shop\MVCBlog\bin\MVCBlog.Data.pdb
+F:\Projects\Shop\MVCBlog\bin\MVCBlog.Data.dll.config
+F:\Projects\Shop\MVCBlog\bin\Microsoft.AI.DependencyCollector.xml
+F:\Projects\Shop\MVCBlog\bin\Microsoft.AI.ServerTelemetryChannel.xml
+F:\Projects\Shop\MVCBlog\bin\Microsoft.AI.Web.xml
+F:\Projects\Shop\MVCBlog\bin\Microsoft.AI.WindowsServer.xml
+F:\Projects\Shop\MVCBlog\bin\Microsoft.ApplicationInsights.xml
+F:\Projects\Shop\MVCBlog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\Projects\Shop\MVCBlog\bin\Newtonsoft.Json.xml
+F:\Projects\Shop\MVCBlog\bin\System.Web.Optimization.xml
+F:\Projects\Shop\MVCBlog\bin\System.Web.Providers.xml
+F:\Projects\Shop\MVCBlog\bin\System.Web.Helpers.xml
+F:\Projects\Shop\MVCBlog\bin\System.Web.Mvc.xml
+F:\Projects\Shop\MVCBlog\bin\System.Web.Razor.xml
+F:\Projects\Shop\MVCBlog\bin\System.Web.WebPages.xml
+F:\Projects\Shop\MVCBlog\bin\System.Web.WebPages.Deployment.xml
+F:\Projects\Shop\MVCBlog\bin\System.Web.WebPages.Razor.xml
+F:\Projects\Shop\MVCBlog\bin\Antlr3.Runtime.pdb
+F:\Projects\Shop\MVCBlog\bin\EntityFramework.xml
+F:\Projects\Shop\MVCBlog\bin\EntityFramework.SqlServer.xml
+F:\Projects\Shop\MVCBlog\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Projects\Shop\MVCBlog\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Projects\Shop\MVCBlog\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Projects\Shop\MVCBlog\bin\Microsoft.Owin.xml
+F:\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.xml
+F:\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Google.xml
+F:\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Projects\Shop\MVCBlog\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Projects\Shop\MVCBlog\obj\Debug\MVCShop.csprojResolveAssemblyReference.cache
+F:\Projects\Shop\MVCBlog\obj\Debug\MVCBlog.dll
+F:\Projects\Shop\MVCBlog\obj\Debug\MVCBlog.pdb
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\SendGrid.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\SendGrid.pdb
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog\bin\SendGrid.xml

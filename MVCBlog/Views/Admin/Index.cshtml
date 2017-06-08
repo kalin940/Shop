@@ -1,0 +1,9 @@
+﻿@using MVCBlog.Models
+@{
+    ViewBag.Title = "Admin";
+    Layout = "~/Views/Shared/_LayoutShop.cshtml";
+}
+<hr />  
+@Html.Partial("_SendMail", new SendMailViewModel())
+<hr />
+@Html.Partial("_CreateProduct", new ProductsViewModel())

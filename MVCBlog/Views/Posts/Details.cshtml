@@ -1,0 +1,94 @@
+﻿@model MVCBlog.Data.Post
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div>
+    <h4>Post</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+               
+        <dt>
+            @Html.DisplayNameFor(model => model.Body)     
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Body)
+        </dd>
+
+        <dt>
+
+        </dt>
+        <dd>
+            @if (Model.Img != null)
+            {
+                string imageBase64 = Convert.ToBase64String(Model.Img);
+                string imageSrc = string.Format("data:image/gif;base64,{0}", imageBase64);
+                <img src="@imageSrc" width="200" height="200" />
+            }
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Tag)
+        </dt>
+        <dd>
+            @if (ViewBag.CurrPostTags != null)
+            {
+                foreach (var tag in ViewBag.CurrPostTags)
+                { <span class="glyphicon-tags">@tag.TagName</span>
+                }
+            }        
+        </dd>
+    </dl>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Comments: </dt>
+        @foreach (var item in ViewBag.postComments)
+        {
+            <dd class="comment">
+                <div class="about">
+                    <span>
+                        Author: <i>
+                            @if (item.Author != null)
+                            { @item.Author.FullName }
+                        </i>    Date:@item.Date
+                    </span>
+                </div>
+                <div class="body">@item.Text</div>
+                <br />
+            </dd>
+        }
+    </dl>
+    <dl class="dl-horizontal">
+        @if (Request.IsAuthenticated)
+        {
+            @Html.ActionLink("Comment this Post", "Create", "Comments", new { id = Model.Id }, null)
+        }
+        else
+        {
+            @Html.ActionLink("Login to comment posts", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })
+        }
+    </dl>
+</div>
+<p>
+    @if (Roles.IsUserInRole(User.Identity.Name, "Administrators"))
+    {
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Id })
+    }
+    <br />
+    @Html.ActionLink("Back to List", "Index")
+</p>

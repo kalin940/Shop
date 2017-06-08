@@ -1,0 +1,32 @@
+﻿@model MVCBlog.Models.ProductsViewModel
+@using (@Html.BeginForm("CreateProduct", "Admin", FormMethod.Post))
+{
+    <div class="container">
+        <div class="form-group col-lg-6">
+            @Html.TextAreaFor(m => m.ProductName, new { @class = "form-control", @type = "text", @placeholder = "Product Name" })
+            @Html.ValidationMessageFor(m => m.ProductName, "", new { @class = "text-danger" })
+            <br />
+            @Html.TextAreaFor(m => m.Status, new { @class = "form-control", @type = "text", @placeholder = "Status" })
+            @Html.ValidationMessageFor(m => m.Status, "", new { @class = "text-danger" })
+            <br />
+            @Html.TextAreaFor(m => m.Brand, new { @class = "form-control", @type = "text", @placeholder = "Brand" })
+            @Html.ValidationMessageFor(m => m.Brand, "", new { @class = "text-danger" })
+            <br />
+            @Html.TextAreaFor(m => m.Price, new { @class = "form-control", @type = "text", @placeholder = "Brand" })
+            @Html.ValidationMessageFor(m => m.Price, "", new { @class = "text-danger" })
+        </div>
+        <div class="col-md-6">
+            @Html.TextAreaFor(m => m.Description, new { @class = "form-control", @type = "text", @placeholder = "Description" })
+            @Html.ValidationMessageFor(m => m.Description, "", new { @class = "text-danger" })
+            <br />
+            @Html.TextAreaFor(m => m.Specification, new { @class = "form-control", @type = "text", @placeholder = "Specification" })
+            <br />
+            @Html.TextAreaFor(m => m.Count, new { @class = "form-control", @type = "text", @placeholder = "Count" })
+            @Html.ValidationMessageFor(m => m.Count, "", new { @class = "text-danger" })
+            <br />
+            @Html.TextAreaFor(m => m.Rating, new { @class = "form-control", @type = "text", @placeholder = "Brand" })
+            <br />
+            <input type="submit" value="Send Message" class="btn btn-primary">
+        </div>
+    </div>
+}

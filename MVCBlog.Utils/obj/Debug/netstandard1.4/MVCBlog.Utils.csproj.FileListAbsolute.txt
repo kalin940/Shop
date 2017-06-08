@@ -1,0 +1,7 @@
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog.Utils\bin\Debug\netstandard1.4\MVCBlog.Utils.deps.json
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog.Utils\bin\Debug\netstandard1.4\MVCBlog.Utils.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog.Utils\bin\Debug\netstandard1.4\MVCBlog.Utils.pdb
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog.Utils\obj\Debug\netstandard1.4\MVCBlog.Utils.AssemblyInfo.cs
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog.Utils\obj\Debug\netstandard1.4\MVCBlog.Utils.dll
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog.Utils\obj\Debug\netstandard1.4\MVCBlog.Utils.pdb
+C:\Users\Kalin\Documents\Visual Studio 2017\Projects\Shop\MVCBlog.Utils\obj\Debug\netstandard1.4\MVCBlog.Utils.csprojResolveAssemblyReference.cache

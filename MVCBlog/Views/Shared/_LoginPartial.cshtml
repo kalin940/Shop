@@ -1,0 +1,24 @@
+﻿@using Microsoft.AspNet.Identity
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm" }))
+    {
+        @Html.AntiForgeryToken()
+        <li class="has-dropdown">
+        @Html.ActionLink(User.Identity.GetUserName(), "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })
+            <ul class="dropdown">
+                <li><a href="#">Cart</a></li>   
+                <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>   
+                @if (Roles.IsUserInRole(User.Identity.Name, "Administrators"))
+                {
+                    <li>@Html.ActionLink("Administration","Index","Admin")</li>
+                }
+             </ul>
+        </li>
+    }
+}
+else
+{
+    <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+}
+

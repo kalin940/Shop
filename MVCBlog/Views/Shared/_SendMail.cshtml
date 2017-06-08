@@ -1,0 +1,16 @@
+﻿@model MVCBlog.Models.SendMailViewModel
+@using (@Html.BeginForm("SendMailToSubscribers", "Admin", FormMethod.Post))
+{
+    <div class="container">
+       <div class="form-group col-lg-6">
+                @Html.TextAreaFor(m => m.Content, new { @class = "form-control", @type = "text", @id = "content", @placeholder = "Send Mail to All Subscribers" })
+                @Html.ValidationMessageFor(m => m.Content, "", new { @class = "text-danger" })           
+        </div>
+        <div class="col-md-6">
+            @Html.TextBoxFor(m => m.Subject, new { @class = "form-control", @type = "text", @id = "content", @placeholder = "Subject" })
+            @Html.ValidationMessageFor(m => m.Subject, "", new { @class = "text-danger" })
+            <br />
+            <input type="submit" value="Send Message" class="btn btn-primary">
+        </div>
+     </div>
+}

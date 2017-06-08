@@ -1,0 +1,173 @@
+﻿@model List<MVCBlog.Models.ProductsViewModel>
+@{
+    ViewBag.Title = "Products";
+    Layout = "~/Views/Shared/_LayoutShop.cshtml";
+}
+
+<div id="fh5co-product">
+    <div class="container">
+        <div class="row animate-box">
+            <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+                <span>Cool Stuff</span>
+                <h2>Products.</h2>
+                <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4 text-center animate-box">
+                    <div class="product"> 
+                            <div class="product-grid" style="background-image:url('@item.FirstImg');">
+                                <div class="inner">
+                                    <p>
+                                        <a href="javascript:void(0)" class="icon"><i class="product-cart icon-shopping-cart" data-id="@item.Id" data-product="@item.ProductName" data-price="@item.Price" data-status="@item.Status" data-brand="@item.Brand"></i></a>
+                                        <a href="@Url.Action("Details", "Products", new { id = item.Id })" class="icon"><i class="icon-eye"></i></a>
+                                    </p>
+                                </div>
+                            </div>
+                        <div class="desc">
+                            <h3><a href="#">@item.ProductName</a></h3>
+                            <span class="price">$@item.Price</span>
+                        </div>
+                    </div>
+                </div>
+            }
+            
+            @*<div class="col-md-4 text-center animate-box">
+                <div class="product">
+                    <div class="product-grid" style="background-image:url('../../Content/images/product-2.jpg');">
+                        <div class="inner">
+                            <p>
+                                <a href="javascript:void(0)" class="icon"><i class="product-cart icon-shopping-cart" data-id="2" data-product="Car" data-price="300" data-status="In Stock" data-brand="Audi"></i></a>
+                                <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <h3><a href="single.html">Pavilion Speaker</a></h3>
+                        <span class="price">$600</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center animate-box">
+                <div class="product">
+                    <div class="product-grid" style="background-image:url('../../Content/images/product-3.jpg');">
+                        <div class="inner">
+                            <p>
+                                <a href="javascript:void(0)" class="icon"><i class="product-cart icon-shopping-cart" data-id="3"></i></a>
+                                <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <h3><a href="single.html">Ligomancer</a></h3>
+                        <span class="price">$780</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 text-center animate-box">
+                <div class="product">
+                    <div class="product-grid" style="background-image:url('../../Content/images/product-4.jpg');">
+                        <div class="inner">
+                            <p>
+                                <a href="javascript:void(0)" class="icon"><i class="icon-shopping-cart"></i></a>
+                                <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <h3><a href="single.html">Alato Cabinet</a></h3>
+                        <span class="price">$800</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center animate-box">
+                <div class="product">
+                    <div class="product-grid" style="background-image:url('../../Content/images/product-5.jpg');">
+                        <div class="inner">
+                            <p>
+                                <a href="javascript:void(0)" class="icon"><i class="icon-shopping-cart"></i></a>
+                                <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <h3><a href="single.html">Earing Wireless</a></h3>
+                        <span class="price">$100</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center animate-box">
+                <div class="product">
+                    <div class="product-grid" style="background-image:url('../../Content/images/product-6.jpg');">
+                        <div class="inner">
+                            <p>
+                                <a href="javascript:void(0)" class="icon"><i class="icon-shopping-cart"></i></a>
+                                <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <h3><a href="single.html">Sculptural Coffee Table</a></h3>
+                        <span class="price">$960</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 text-center animate-box">
+                <div class="product">
+                    <div class="product-grid" style="background-image:url('../../Content/images/product-7.jpg');">
+                        <div class="inner">
+                            <p>
+                                <a href="javascript:void(0)" class="icon"><i class="icon-shopping-cart"></i></a>
+                                <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <h3><a href="single.html">The WW Chair</a></h3>
+                        <span class="price">$540</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center animate-box">
+                <div class="product">
+                    <div class="product-grid" style="background-image:url('../../Content/images/product-8.jpg');">
+                        <div class="inner">
+                            <p>
+                                <a href="javascript:void(0)" class="icon"><i class="icon-shopping-cart"></i></a>
+                                <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <h3><a href="single.html">Himitsu Money Box</a></h3>
+                        <span class="price">$55</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 text-center animate-box">
+                <div class="product">
+                    <div class="product-grid" style="background-image:url('../../Content/images/product-9.jpg');">
+                        <div class="inner">
+                            <p>
+                                <a href="javascript:void(0)" class="icon"><i class="icon-shopping-cart"></i></a>
+                                <a href="single.html" class="icon"><i class="icon-eye"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <h3><a href="single.html">Ariane Prin</a></h3>
+                        <span class="price">$99</span>
+                    </div>
+                </div>
+            </div>*@
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/addToCart.js"></script>

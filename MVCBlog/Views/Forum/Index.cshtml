@@ -1,0 +1,35 @@
+﻿@model MVCBlog.Models.ShowPostsViewModel
+@{
+    ViewBag.Title = "Forum Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Welcome!</h1>
+<section class="row">
+   <h3>Most Recent</h3>
+    @if (Model.Posts.Any())
+    {
+        @Html.DisplayFor(x => x.Posts)
+    }
+    else
+    {
+        <div>No posts</div>
+    }
+   
+</section> 
+
+
+<section class="row">
+    <h3>Most Commented</h3>
+    @if (Model.Posts.Any())
+    {
+        @Html.DisplayFor(x => x.PostWithMostComments)
+    }
+    else
+    {
+        <div>No posts</div>
+    }
+
+</section>     
+   
+

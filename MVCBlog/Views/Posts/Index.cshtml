@@ -1,0 +1,165 @@
+﻿@model IEnumerable<MVCBlog.Data.Post>
+@using MVCBlog.Classes
+
+@{
+    ViewBag.Title = "Posts";
+}
+
+<h2>Posts</h2>
+@if (Request.IsAuthenticated)
+{
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+}
+else
+{
+    <p>
+        @Html.ActionLink("You must register to create posts","Register", "Account")
+    </p>
+}
+<div>
+    <input id="search_keyword" type="text" placeholder="&nbsp;&nbsp;Post..."/> 
+    <button class="btn btn-group" id="search_button" type="button" style="padding:4px 16px">Search</button>
+    <select class="selectpicker" id="tag-select" style="padding:5px; border-radius: 4px;">
+      <option value=""></option>
+    </select> 
+</div>
+<table id="searchPostTable" class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Body)
+            </th>
+            <th>
+                Author:
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Date)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.ActionLink(item.Title, "Details", new { id = item.Id })
+                </td>
+                <td>
+                    @Utils.CutText(item.Body)
+                </td>
+                <td>
+                    @if (item.Author != null)
+                {
+                        @Html.DisplayFor(modelItem => item.Author.FullName)
+                    }
+                    else
+                    {
+                        <span><i>No Author</i></span>
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                @if (Roles.IsUserInRole(User.Identity.Name, "Administrators"))
+                {
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                        @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                        @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+
+                    </td>
+                }
+            </tr>
+
+        }
+    </tbody>
+</table>
+<script>
+    $(function () {
+        $.ajax({
+            type: "GET",
+            url: "@Url.Action("GetTags", "Posts")",       
+            contentType: "application/json",                  
+            success: function (tags) {
+                fillTagsDropdown(tags);
+        },
+        error: function (error) {
+            console.log("fail");
+        }
+     });
+        $('#search_button').on("click", function () {
+            let keyword = $('#search_keyword').val();
+            let tag = $('#tag-select').find(":selected").text();
+            console.log(tag);
+            var model = new Object();
+            model.Keyword = keyword;
+            model.Tag = tag;
+            $.ajax({
+                type: "POST",
+                url: "@Url.Action("SearchPosts", "Posts")",       
+                contentType: "application/json",              
+                data: JSON.stringify({ keyword: model.Keyword , tag : model.Tag}),
+                success: function (data) {
+                    fillTabel(data);
+                },
+                error: function (error) {
+                    console.log("fail");
+                }
+            });  
+        });
+    });
+
+    function fillTagsDropdown(tags) {
+        for(let tag of tags) {
+            $('#tag-select').append($(`<option value="${tag}">`).text(tag));
+        }
+    }
+
+    function fillTabel(posts) {
+        let postsTableBody = $('#searchPostTable tbody');
+        $('#searchPostTable tbody').html("");
+        if (posts.length == 0) {
+            console.log("0 results");
+            $('#searchPostTable tbody').html("<tr><td>No results found</td></tr>");
+        }
+        else {
+            for (let post of posts) {
+                appendPostRow(post, postsTableBody);
+
+                //let a = '<tr><td><a href="/Posts/Details/"' + post.Id + '">' + post.Title + '</a></td></tr>';
+                //$('#searchPostTable tbody').append(a);            
+            }
+        }
+    }
+    function appendPostRow(post, postsTableBody) {
+        let author =post.Author ;
+        if (post.Author == null || post.Author == "", post.Author == undefined) {
+            author = "<i>No Author</i>"
+        }
+        let check='@(Roles.IsUserInRole(User.Identity.Name, "Administrators") ? "true" : "false")';
+        if (check=='true')
+        {
+            let links = '<td><a href="/Posts/Edit/' + post.Id + '"> Edit</a> | <a href="/Posts/Details/' + post.Id + '">Details</a> | <a href="/Posts/Delete/' + post.Id + '">Delete</a></td>';
+             postsTableBody.append($('<tr>').append(
+                         $('<td>').append($('<a href="/Posts/Details/' + post.Id + '">').text(post.Title)),
+                              $('<td>').text(post.Body),
+                              $('<td>').text(author),
+                              $('<td>').text(post.DateString),
+                              $(links)
+                          ));          
+         }else {
+             postsTableBody.append($('<tr>').append(
+                          $('<td>').append($('<a href="/Posts/Details/' + post.Id + '">').text(post.Title)),
+                               $('<td>').text(post.Body),
+                               $('<td>').text(author),
+                               $('<td>').text(post.DateString)
+                           ));
+         }
+         }
+</script>

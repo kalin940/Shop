@@ -1,0 +1,179 @@
+﻿@using MVCBlog.Models
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>@ViewBag.Title - My Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Shop by Kalin Petrov" />
+    <meta name="keywords" content="Shop,Kalin,Forum" />
+    <meta name="author" content="Kalin Petrov" />
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content="" />
+    <meta property="og:image" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:site_name" content="" />
+    <meta property="og:description" content="" />
+    <meta name="twitter:title" content="" />
+    <meta name="twitter:image" content="" />
+    <meta name="twitter:url" content="" />
+    <meta name="twitter:card" content="" />
+    @Styles.Render("~/Content/cssDesign")
+
+    @RenderSection("styles", required: false)
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/bootstrap")
+</head>
+<body>
+    <div class="fh5co-loader"></div>   
+    <div id="page">
+        <nav class="fh5co-nav" role="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2 col-xs-2">
+                        <div id="fh5co-logo">@Html.ActionLink("Shop", "Index", "Home")</div>
+                    </div>
+                    <div class="col-md-7 col-xs-6 text-center menu-1">
+                        <ul>
+                            <li class="has-dropdown">
+                                @Html.ActionLink("Shop", "Index", "Home")
+                                <ul class="dropdown">
+                                    <li>@Html.ActionLink("Products", "Products", "Products")</li>
+                                    <li>@Html.ActionLink("Top Offers", "PromoProducts", "Products")</li>
+                                </ul>
+                            </li>
+                            <li>@Html.ActionLink("About", "About", "Home")</li>
+                            <li>@Html.ActionLink("Services", "Services", "Home")</li>
+                            <li class="has-dropdown">
+                                @Html.ActionLink("Forum", "Index", "Forum")
+                                <ul class="dropdown">
+                                    <li>@Html.ActionLink("Posts", "Index", "Posts")</li>
+                                    <li>@Html.ActionLink("Comments", "Index", "Comments")</li>
+                                </ul>
+                            </li>
+                            <li>@Html.ActionLink("Contacts", "Contacts", "Home")</li>
+                            @Html.Partial("_LoginPartial")
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-xs-4 text-right hidden-xs menu-2">
+                        <ul>
+                            <li class="search"> 
+                                <div class="input-group">
+                                    <input class="search-keyword" type="text" placeholder="Search.." />
+                                    <span id="search-button" class="input-group-btn">
+                                        <button class="btn btn-primary" type="button"><i class="icon-search"></i></button>
+                                    </span>
+                                </div>
+                            </li>
+                            <li class="shopping-cart"><a href="@Url.Action("Cart", "Home")" class="cart"><span><small id="cartItems">0</small><i class="icon-shopping-cart"></i></span></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+
+        @Html.Partial("_Notifications")
+
+        @RenderBody()
+
+        @Html.Partial("_NewsLetter", new NewsLetterViewModel())
+   
+        
+        <footer id="fh5co-footer" role="contentinfo">
+            <div class="container">
+                <div class="row row-pb-md">
+                    <div class="col-md-4 fh5co-widget">
+                        <h3>Shop.</h3>
+                        <p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+                        <ul class="fh5co-footer-links">
+                            <li>@Html.ActionLink("About", "About", "Home")</li>
+                            <li><a href="#">Help</a></li>
+                            <li>@Html.ActionLink("Contacts", "Contacts", "Home")</li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Meetups</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+                        <ul class="fh5co-footer-links">
+                            <li>@Html.ActionLink("Shop", "Index", "Home")</li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Testimonials</a></li>
+                            <li><a href="#">Handbook</a></li>
+                            <li><a href="#">Held Desk</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1">
+                        <ul class="fh5co-footer-links">
+                            <li><a href="#">Find Designers</a></li>
+                            <li><a href="#">Find Developers</a></li>
+                            <li><a href="#">Teams</a></li>
+                            <li><a href="#">Advertise</a></li>
+                            <li><a href="#">API</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row copyright">
+                    <div class="col-md-12 text-center">
+                        <p>
+                            <small class="block">&copy; 2017 by Kalin. All Rights Reserved.</small>
+                            <small class="block">Designed by <a href="https://www.facebook.com/kalin.petrov.1650" target="_blank">Kalin Petrov</a></small>
+                        </p>
+                        <p>
+                            <ul class="fh5co-social-icons">
+                                <li><a href="#"><i class="icon-twitter"></i></a></li>
+                                <li><a href="https://www.facebook.com/kalin.petrov.1650"><i class="icon-facebook"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/kalinpetrov940/"><i class="icon-linkedin"></i></a></li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </div>
+        <div class="gototop js-top">
+            <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+        </div>
+
+        @RenderSection("scripts", required: false)
+
+        @Scripts.Render("~/bundles/jsDesign")
+    <script>
+        $(function () {
+            if (sessionStorage.getItem('cartItems') != null) {
+                $('.shopping-cart').find('small').text(sessionStorage.getItem('cartItems'));
+            } else {
+                sessionStorage.setItem('cartItems', 0);
+                $('.shopping-cart').find('small').text(0);
+            }
+
+            $('.icon-search').click(function () {
+                let keyword = $('.search-keyword')[1].value
+                console.log(keyword);
+                
+                var model = new Object();
+                model.Keyword = keyword;
+                $.ajax({
+                    type: "POST",
+                    url: "@Url.Action("Search", "Products")",
+                    contentType: "application/json",
+                    data: JSON.stringify({ keyword: model.Keyword }),
+                    success: function (data) {
+                        console.log(data);
+                        window.location.replace("https://localhost:44321/Products/SearchProducts")
+                    },
+                    error: function (error) {
+                        console.log("fail");
+                    }
+                });
+            });
+        });
+
+    </script>
+</body>
+</html>
